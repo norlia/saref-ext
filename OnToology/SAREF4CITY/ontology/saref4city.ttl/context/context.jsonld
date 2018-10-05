@@ -1,0 +1,317 @@
+{
+  "@context" : {
+    "belongsTo" : {
+      "@id" : "https://w3id.org/def/saref4city#belongsTo",
+      "@type" : "@id"
+    },
+    "involvesFacility" : {
+      "@id" : "https://w3id.org/def/saref4city#involvesFacility",
+      "@type" : "@id"
+    },
+    "Neighbourhood" : {
+      "@id" : "https://w3id.org/def/saref4city#Neighbourhood"
+    },
+    "aggregatesData" : {
+      "@id" : "https://w3id.org/def/saref4city#aggregatesData",
+      "@type" : "@id"
+    },
+    "isAvailableInArea" : {
+      "@id" : "https://w3id.org/def/saref4city#isAvailableInArea",
+      "@type" : "@id"
+    },
+    "UnitOfMeasure" : {
+      "@id" : "https://w3id.org/saref#UnitOfMeasure"
+    },
+    "creationDate" : {
+      "@id" : "https://w3id.org/def/saref4city#creationDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "hasIndicatorUnit" : {
+      "@id" : "https://w3id.org/def/saref4city#hasIndicatorUnit",
+      "@type" : "@id"
+    },
+    "PublicService" : {
+      "@id" : "https://w3id.org/def/saref4city#PublicService"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "regulatedBy" : {
+      "@id" : "https://w3id.org/def/saref4city#regulatedBy",
+      "@type" : "@id"
+    },
+    "Lingvo" : {
+      "@id" : "http://www.lingvoj.org/ontology#Lingvo"
+    },
+    "license" : {
+      "@id" : "http://purl.org/dc/terms/license"
+    },
+    "Country" : {
+      "@id" : "https://w3id.org/def/saref4city#Country"
+    },
+    "refersTo" : {
+      "@id" : "https://w3id.org/def/saref4city#refersTo",
+      "@type" : "@id"
+    },
+    "hasCalculationPeriod" : {
+      "@id" : "https://w3id.org/def/saref4city#hasCalculationPeriod",
+      "@type" : "@id"
+    },
+    "topDataProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+    },
+    "hasServiceName" : {
+      "@id" : "https://w3id.org/def/saref4city#hasServiceName"
+    },
+    "FeatureOfInterest" : {
+      "@id" : "https://w3id.org/def/saref4city#FeatureOfInterest"
+    },
+    "District" : {
+      "@id" : "https://w3id.org/def/saref4city#District"
+    },
+    "measuresProperty" : {
+      "@id" : "https://w3id.org/saref#measuresProperty",
+      "@type" : "@id"
+    },
+    "Geometry" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#Geometry"
+    },
+    "hasValue" : {
+      "@id" : "https://w3id.org/saref#hasValue"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "belongsToCity" : {
+      "@id" : "https://w3id.org/def/saref4city#belongsToCity",
+      "@type" : "@id"
+    },
+    "contains" : {
+      "@id" : "https://w3id.org/def/saref4city#contains",
+      "@type" : "@id"
+    },
+    "Concept" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+    },
+    "Measurement" : {
+      "@id" : "https://w3id.org/saref#Measurement"
+    },
+    "providesService" : {
+      "@id" : "https://w3id.org/def/saref4city#providesService",
+      "@type" : "@id"
+    },
+    "Event" : {
+      "@id" : "https://w3id.org/def/saref4city#Event"
+    },
+    "hasProperty" : {
+      "@id" : "https://w3id.org/def/saref4city#hasProperty",
+      "@type" : "@id"
+    },
+    "rightsHolder" : {
+      "@id" : "http://purl.org/dc/terms/rightsHolder"
+    },
+    "measurementMadeBy" : {
+      "@id" : "https://w3id.org/def/saref4city#measurementMadeBy",
+      "@type" : "@id"
+    },
+    "Interval" : {
+      "@id" : "http://www.w3.org/2006/time#Interval"
+    },
+    "Agent" : {
+      "@id" : "https://w3id.org/def/saref4city#Agent"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/terms/creator"
+    },
+    "name" : {
+      "@id" : "https://w3id.org/def/saref4city#name"
+    },
+    "takesPlaceAtTime" : {
+      "@id" : "https://w3id.org/def/saref4city#takesPlaceAtTime",
+      "@type" : "@id"
+    },
+    "lastUpdateDate" : {
+      "@id" : "https://w3id.org/def/saref4city#lastUpdateDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Facility" : {
+      "@id" : "https://w3id.org/def/saref4city#Facility"
+    },
+    "location" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#location",
+      "@type" : "@id"
+    },
+    "PublicAdministration" : {
+      "@id" : "https://w3id.org/def/saref4city#PublicAdministration"
+    },
+    "dateCopyrighted" : {
+      "@id" : "http://purl.org/dc/terms/dateCopyrighted"
+    },
+    "TemporalEntity" : {
+      "@id" : "http://www.w3.org/2006/time#TemporalEntity"
+    },
+    "hadPrimarySource" : {
+      "@id" : "http://www.w3.org/ns/prov#hadPrimarySource"
+    },
+    "isAvailableInLanguage" : {
+      "@id" : "https://w3id.org/def/saref4city#isAvailableInLanguage",
+      "@type" : "@id"
+    },
+    "hasCityObject" : {
+      "@id" : "https://w3id.org/def/saref4city#hasCityObject",
+      "@type" : "@id"
+    },
+    "hasEventName" : {
+      "@id" : "https://w3id.org/def/saref4city#hasEventName"
+    },
+    "relatesToMeasurement" : {
+      "@id" : "https://w3id.org/saref#relatesToMeasurement",
+      "@type" : "@id"
+    },
+    "isMeasuredByDevice" : {
+      "@id" : "https://w3id.org/saref#isMeasuredByDevice",
+      "@type" : "@id"
+    },
+    "preferredNamespacePrefix" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix"
+    },
+    "usesService" : {
+      "@id" : "https://w3id.org/def/saref4city#usesService",
+      "@type" : "@id"
+    },
+    "isDefinedBy" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#isDefinedBy"
+    },
+    "Point" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#Point"
+    },
+    "KeyPerformanceIndicator" : {
+      "@id" : "https://w3id.org/def/saref4city#KeyPerformanceIndicator"
+    },
+    "makesMeasurement" : {
+      "@id" : "https://w3id.org/saref#makesMeasurement",
+      "@type" : "@id"
+    },
+    "NonConvexInterval" : {
+      "@id" : "https://w3id.org/def/saref4city#NonConvexInterval"
+    },
+    "hasGeometry" : {
+      "@id" : "http://www.opengis.net/ont/geosparql#hasGeometry",
+      "@type" : "@id"
+    },
+    "hasServiceDescription" : {
+      "@id" : "https://w3id.org/def/saref4city#hasServiceDescription"
+    },
+    "Property" : {
+      "@id" : "https://w3id.org/saref#Property"
+    },
+    "Rule" : {
+      "@id" : "https://w3id.org/def/saref4city#Rule"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "isMeasuredIn" : {
+      "@id" : "https://w3id.org/saref#isMeasuredIn",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "hasFeatureOfInterest" : {
+      "@id" : "https://w3id.org/def/saref4city#hasFeatureOfInterest",
+      "@type" : "@id"
+    },
+    "hasKPIDescription" : {
+      "@id" : "https://w3id.org/def/saref4city#hasKPIDescription"
+    },
+    "List" : {
+      "@id" : "https://w3id.org/def/saref4city#List"
+    },
+    "consistsOf" : {
+      "@id" : "https://w3id.org/saref#consistsOf",
+      "@type" : "@id"
+    },
+    "CityObject" : {
+      "@id" : "https://w3id.org/def/saref4city#CityObject"
+    },
+    "hasAccesibility" : {
+      "@id" : "https://w3id.org/def/saref4city#hasAccesibility",
+      "@type" : "@id"
+    },
+    "expirationDate" : {
+      "@id" : "https://w3id.org/def/saref4city#expirationDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "isPropertyOf" : {
+      "@id" : "https://w3id.org/def/saref4city#isPropertyOf",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "calculatedBy" : {
+      "@id" : "https://w3id.org/def/saref4city#calculatedBy",
+      "@type" : "@id"
+    },
+    "City" : {
+      "@id" : "https://w3id.org/def/saref4city#City"
+    },
+    "relatesToProperty" : {
+      "@id" : "https://w3id.org/saref#relatesToProperty",
+      "@type" : "@id"
+    },
+    "hasKPIValue" : {
+      "@id" : "https://w3id.org/def/saref4city#hasKPIValue"
+    },
+    "Actuator" : {
+      "@id" : "https://w3id.org/saref#Actuator"
+    },
+    "SpatialThing" : {
+      "@id" : "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "isOrganizedBy" : {
+      "@id" : "https://w3id.org/def/saref4city#isOrganizedBy",
+      "@type" : "@id"
+    },
+    "controlsProperty" : {
+      "@id" : "https://w3id.org/saref#controlsProperty",
+      "@type" : "@id"
+    },
+    "hasKPIName" : {
+      "@id" : "https://w3id.org/def/saref4city#hasKPIName"
+    },
+    "isSubEventOf" : {
+      "@id" : "https://w3id.org/def/saref4city#isSubEventOf",
+      "@type" : "@id"
+    },
+    "Device" : {
+      "@id" : "https://w3id.org/saref#Device"
+    },
+    "hasDescription" : {
+      "@id" : "https://w3id.org/saref#hasDescription"
+    },
+    "hasTimestamp" : {
+      "@id" : "https://w3id.org/saref#hasTimestamp"
+    },
+    "AdministrativeArea" : {
+      "@id" : "https://w3id.org/def/saref4city#AdministrativeArea"
+    },
+    "assess" : {
+      "@id" : "https://w3id.org/def/saref4city#assess",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "preferredNamespaceUri" : {
+      "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri"
+    },
+    "Sensor" : {
+      "@id" : "https://w3id.org/saref#Sensor"
+    }
+  }
+}

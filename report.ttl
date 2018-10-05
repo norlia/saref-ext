@@ -1,0 +1,273 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909IFC-DEVICE-RAWTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab IFC-device-Raw.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#IFC-DEVICE-RAW.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HTTPSW3IDORGDEFSAREF4ENVI%2523>
+        rdfs:label  "Entry for vocab https://w3id.org/def/saref4envi#" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909IFC-PROPERTIES-RAWRDF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab IFC-properties-Raw.rdf" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#IFC-PROPERTIES-RAW.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909IFC-PROPERTIES-IN-AXIOMS-1RDF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab IFC-Properties-In-Axioms-1.rdf" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#IFC-PROPERTIES-IN-AXIOMS-1.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#entrySubject>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HTTPSW3IDORGDEFSAREF4CITY%2523>
+        rdfs:label  "Entry for vocab https://w3id.org/def/saref4city#" .
+
+rdfs:label  a   owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#reportDate>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDEXAMPLESEXAMPLE1BLDGTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-ZLqZ/SAREF4BLD/examples/example1BLDG.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDEXAMPLESEXAMPLE1BLDG.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909REPORTTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab report.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#REPORT.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#Error>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HTTPSW3IDORGDEFSAREF4BLDG%2523>
+        rdfs:label  "Entry for vocab https://w3id.org/def/saref4bldg#" .
+
+<http://vocab.linkeddata.es/ontology/report#Report>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#REPORT1538727956909>
+        a           <http://vocab.linkeddata.es/ontology/report#Report> ;
+        rdfs:label  "Report created on Fri Oct 05 08:25:56 UTC 2018" ;
+        <http://vocab.linkeddata.es/ontology/report#hasEntry>
+                <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909PROVENANCEIFC-ISOLATEDTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4ENVEXAMPLESEXAMPLE1ENVITTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDRAWRDFFROMPROTEGEOWL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909IFC-PROPERTIES-RAW2RDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909IFC-PROPERTIES-RAWRDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909IFC-DEVICE-RAWTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDEXAMPLESEXAMPLE1BLDGTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909IFC-DEVICE-RAWRDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HTTPSW3IDORGDEFSAREF4BLDG%23> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDRAWRDFIFC-DEVICE-RAW%20COPYRDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909REPORTTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909IFC-PROPERTIES-IN-AXIOMS-1RDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4ENVEXAMPLESEXAMPLE1ENVI-POLISHEDTTL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HTTPSW3IDORGDEFSAREF4ENVI%23> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HTTPSW3IDORGDEFSAREF4CITY%23> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909PROVENANCEIFC-ISOLATEDRDF> , <http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDEXAMPLESEXAMPLE1BLDGPOLISHEDTTL> ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+                "8" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
+                "3" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
+                "6" ;
+        <http://vocab.linkeddata.es/ontology/report#reportDate>
+                "Fri Oct 05 08:25:56 UTC 2018"^^xsd:dateTime .
+
+<http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC>
+        a           <http://vocab.linkeddata.es/ontology/report#Warning> ;
+        rdfs:label  "Warning: title or description missing from vocabulary" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909PROVENANCEIFC-ISOLATEDRDF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab ProvenanceIFC-Isolated.rdf" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#PROVENANCEIFC-ISOLATED.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDRAWRDFIFC-DEVICE-RAW%20COPYRDF>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDRAWRDFIFC-DEVICE-RAW%20COPY.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDRAWRDFIFC-DEVICE-RAW%2520COPYRDF>
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-ZLqZ/SAREF4BLD/RawRDF/IFC-device-Raw copy.rdf" .
+
+<http://vocab.linkeddata.es/ontology/report#GENERICERROR>
+        a           <http://vocab.linkeddata.es/ontology/report#Error> ;
+        rdfs:label  "Error: the vocabulary could not be loaded or processed" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HTTPSW3IDORGDEFSAREF4BLDG%23>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_SAREF4BLDG%23> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909PROVENANCEIFC-ISOLATEDTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab ProvenanceIFC-Isolated.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#PROVENANCEIFC-ISOLATED.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HTTPSW3IDORGDEFSAREF4CITY%23>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_SAREF4CITY%23> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDEXAMPLESEXAMPLE1BLDGPOLISHEDTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-ZLqZ/SAREF4BLD/examples/example1BLDGpolished.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDEXAMPLESEXAMPLE1BLDGPOLISHED.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4ENVEXAMPLESEXAMPLE1ENVITTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-ZLqZ/SAREF4ENV/examples/example1ENVI.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4ENVEXAMPLESEXAMPLE1ENVI.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDRAWRDFFROMPROTEGEOWL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-ZLqZ/SAREF4BLD/RawRDF/fromProtege.owl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4BLDRAWRDFFROMPROTEGE.OWL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#Warning>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#Entry>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4ENVEXAMPLESEXAMPLE1ENVI-POLISHEDTTL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab /home/ahmad/repos/prevclone-ZLqZ/SAREF4ENV/examples/example1ENVI-polished.ttl" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#MISSINGTITLEORDESC> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#/HOMEAHMADREPOSPREVCLONE-ZLQZSAREF4ENVEXAMPLESEXAMPLE1ENVI-POLISHED.TTL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#warning" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909HTTPSW3IDORGDEFSAREF4ENVI%23>
+        a       <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_DEF_SAREF4ENVI%23> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909IFC-PROPERTIES-RAW2RDF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab IFC-properties-Raw2.rdf" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#IFC-PROPERTIES-RAW2.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#hasEntry>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1538727956909IFC-DEVICE-RAWRDF>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab IFC-device-Raw.rdf" ;
+        <http://vocab.linkeddata.es/ontology/report#detectedProblem>
+                <http://vocab.linkeddata.es/ontology/report#GENERICERROR> ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#IFC-DEVICE-RAW.RDF> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1538727956909> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#error" .
+
+<http://vocab.linkeddata.es/ontology/report#detectedProblem>
+        a       rdf:Property .
